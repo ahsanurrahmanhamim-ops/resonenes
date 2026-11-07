@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resonenes: Echo Escape</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hud">
+      <div class="hud-item"><span>Score</span><strong id="score">0</strong></div>
+      <div class="hud-item"><span>Lives</span><strong id="lives">3</strong></div>
+      <div class="hud-item"><span>Target</span><strong id="target">10</strong></div>
+    </div>
+
+    <canvas id="gameCanvas" width="900" height="600" aria-label="Resonenes game canvas"></canvas>
+
+    <div id="overlay" class="overlay visible">
+      <div class="panel">
+        <h1>Resonenes: Echo Escape</h1>
+        <p>Move with <strong>WASD</strong> or <strong>Arrow Keys</strong>.</p>
+        <p>Collect the glowing shards and dodge the pulse drones.</p>
+        <button id="startBtn">Start Game</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
